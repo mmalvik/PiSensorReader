@@ -2,7 +2,7 @@
 
 Run C# on the Raspberry Pi to post sensor data to some endpoint.
 
-*Build*
+#### Build
 Get the latest Cake build.ps1 by opening a powershell script, change the working directory to this one, and run:
 
 Invoke-WebRequest http://cakebuild.net/download/bootstrapper/windows -OutFile build.ps1
