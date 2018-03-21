@@ -6,6 +6,7 @@ tools/
 
 # Cake build (until reading values from some config)
 build.cake
+.vscode/
 
 # User-specific files
 *.suo
