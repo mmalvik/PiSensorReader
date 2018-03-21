@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace mariopi
+namespace PiSensorReader
 {
     public class TemperatureDto 
     {

@@ -8,7 +8,7 @@ using System.Text;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
-namespace mariopi
+namespace PiSensorReader
 {
     public class Program
     {
@@ -26,7 +26,7 @@ namespace mariopi
         private static void ReadConfiguration() 
         {
             var builder = new ConfigurationBuilder()
-            .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "src"))
+            .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json");
 
             Configuration = builder.Build();
