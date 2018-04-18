@@ -39,6 +39,9 @@ namespace PiSensorReader
 
         private static TemperatureDto ReadTemperature() 
         {
+            var filePath = "../TemperatureData.txt";
+            var lines = File.ReadAllLines(filePath);
+            Console.Write(lines.Last());
             var random = new Random();
             var randomTemp = random.Next(-20, 20);
 
